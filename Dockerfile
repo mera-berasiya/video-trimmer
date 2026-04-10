@@ -12,4 +12,6 @@ COPY app.py .
 
 EXPOSE 8080
 
+COPY cookies.txt /app/cookies.txt
+
 CMD ["python", "app.py"]
